@@ -11,9 +11,11 @@ const minutes = millisecondsTilReturn / 60000;
 
 const days = minutes / 1440;
 
-console.log(minutes);
+const displayTime = () => {
+  dayDisplay.textContent = `${Math.round(days)}`;
+  minuteDisplay.textContent = `${Math.round(minutes)}`;
+};
 
-console.log(24 * 60);
+displayTime();
 
-dayDisplay.textContent = `${Math.round(days)}`;
-minuteDisplay.textContent = `${Math.round(minutes)}`;
+setInterval(displayTime, 60000);
