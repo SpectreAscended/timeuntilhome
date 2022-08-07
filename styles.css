@@ -4,15 +4,51 @@ html {
 
 body {
   background-color: rgb(151, 48, 48);
-  display: grid;
-  place-items: center;
-  height: 100vh;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  /* padding-top: 5rem; */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding-top: 10rem;
+}
+
+.heading-primary {
+  color: rgb(240, 216, 186);
 }
 
 .date {
   display: inline-block;
-  font-size: 5rem;
+  color: #382711;
+  font-size: 3rem;
   background-color: rgb(172, 114, 43);
   padding: 1.5rem 3.5rem;
   border-radius: 20rem;
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.35);
+  align-self: center;
+}
+
+.date span {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.days {
+  color: rgb(92, 42, 42);
+}
+
+@media screen and (max-width: 37.5em) {
+  .heading-primary {
+    font-size: 1.6rem;
+  }
+
+  .date {
+    font-size: 1.6rem;
+  }
 }
