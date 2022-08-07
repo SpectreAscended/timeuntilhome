@@ -6,7 +6,6 @@ const displayTime = () => {
   const returnHome = new Date('2022-10-01T08:00:00.833Z');
   const millisecondsTilReturn = returnHome - today;
   const minutes = millisecondsTilReturn / 60000;
-
   const days = minutes / 1440;
   dayDisplay.textContent = `${Math.round(days)}`;
   minuteDisplay.textContent = `${Math.round(minutes)}`;
