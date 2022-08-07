@@ -33,8 +33,6 @@ body {
   border-radius: 20rem;
   box-shadow: 0 0 3rem rgba(0, 0, 0, 0.35);
   align-self: center;
-  width: 65%;
-  text-align: center;
 }
 
 .date span {
@@ -44,6 +42,7 @@ body {
 
 .days {
   color: rgb(92, 42, 42);
+  font-weight: 700;
 }
 
 @media screen and (max-width: 37.5em) {
@@ -53,5 +52,7 @@ body {
 
   .date {
     font-size: 1.6rem;
+    width: 65%;
+    text-align: center;
   }
 }
