@@ -1,0 +1,18 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(151, 48, 48);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.date {
+  display: inline-block;
+  font-size: 5rem;
+  background-color: rgb(172, 114, 43);
+  padding: 1.5rem 3.5rem;
+  border-radius: 20rem;
+}
