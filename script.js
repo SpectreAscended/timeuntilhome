@@ -10,7 +10,6 @@ const displayTime = () => {
   const days = minutes / 1440;
   dayDisplay.textContent = `${Math.round(days)}`;
   minuteDisplay.textContent = `${Math.round(minutes)}`;
-  console.log('Time updated');
 };
 
 displayTime();
