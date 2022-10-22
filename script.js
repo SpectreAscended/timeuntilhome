@@ -3,7 +3,7 @@ const minuteDisplay = document.getElementById('minutes');
 
 const displayTime = () => {
   const today = new Date();
-  const returnHome = new Date('2022-11-01T08:00:00.833Z');
+  const returnHome = new Date('2022-11-12T08:00:00.833Z');
   const millisecondsTilReturn = returnHome - today;
   const minutes = millisecondsTilReturn / 60000;
   const days = minutes / 1440;
